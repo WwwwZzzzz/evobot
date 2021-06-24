@@ -111,3 +111,4 @@ client.on("message", async (message) => {
     message.reply(i18n.__("common.errorCommend")).catch(console.error);
   }
 });
+
