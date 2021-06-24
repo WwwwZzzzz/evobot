@@ -11,7 +11,8 @@ const i18n = require("i18n");
 const client = new Client({
   disableMentions: "everyone",
   restTimeOffset: 0
-});
+}); 
+
 
 client.login(process.env.DJS_TOKEN);
 client.commands = new Collection();
