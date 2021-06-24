@@ -1,1 +1,1 @@
-web: gunicorn goose-bot-music.wsgi
+worker: node index.js
